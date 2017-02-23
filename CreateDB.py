@@ -23,7 +23,7 @@ graph = Graph("http://localhost:7474/db/data/")
 
 #graph.delete_all()
 
-review = pd.read_csv('C:/Users/darsh/OneDrive/Documents/MSIS/Spring Semester/MM1/Unstructured Data Management/Term Project/Airline_data_partial.csv')
+review = pd.read_csv('C:/Users/darsh/OneDrive/Documents/GitHub/CIS8045-Term-Project/Airline_data_partial.csv')
 review.columns.values
 print(review['reviewdate'])
 review_index = 0
